@@ -1,0 +1,50 @@
+body {
+    font: 14px Arial, Tahoms Sans-serif;
+    color:#FF0F5F;
+    background: #FFCDF3;
+}
+#wrapper{
+    width: 500px;
+    margin: 20px 10px;
+}
+fieldset{
+    padding: 2px 20px;
+    margin: 0 10px 0 10px;
+    border: 1px dotted black;
+    background-color: #FDF5B8;
+}
+legend{
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-variant: small-caps;
+    
+}
+.question{
+    text-decoration: underline;
+    font-style: italic;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}   
+button{
+    padding: 10px;
+    background: #9D94A5;
+    color: white;
+    border-radius: 10px;
+  
+}
+button{
+   border:  2px solid #897990;
+}
+button:hover{
+    background-color: #897990;
+    cursor: pointer;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 3px solid #897990;
+}
+textarea{
+    resize: none;
+}

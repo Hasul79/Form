@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Ֆորմա </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="data.php" method="get" name="myform">
+                <!-- անձնական տվյալներ-->
+                <fieldset>
+                    <legend> Անձնական տվյալները</legend>
+                      <p><input type="text" placeholder="Անուն" name="name" ></p>
+                      <p><input type="text" placeholder="Ազգանուն" name="lastname"></p> 
+                      <p><input type="email" placeholder="էլ հասցե" name="email"></p>
+                      <p><input type="password" placeholder="Գաղտնագիր" name="pass"></p>
+                      <p><label><input type="radio" name="time"  value="female "> Իգական </label> <br>
+                        <label><input type="radio" name="time" value="male"> Արական </label></p>
+                 </fieldset>
+
+                <!-- Հարցեր  -->
+                <fieldset>
+                        <legend>Հարցադրում</legend>
+                    <p class="question"> Ձեր նախընտրած մասնագիտությունը </p>
+                    <p>
+                        <label><input type="checkbox" >Ծրագրավորում</label><br>
+                        <label><input type="checkbox" >Երաժշտություն</label><br>
+                        <label><input type="checkbox" >Նկարչություն</label><br>
+                        <label><input type="checkbox" >Ճամփորդություն</label>
+                    </p>
+                    <p> Քանի՚՚ ժամ եք աշխատում օրվա մեջ </p>
+                    <select name="worktime">
+                        <option >none</option> 
+                        <option disabled>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>6</option>
+                        <option>8</option>
+                    </select>
+                    <p><label for="text">ԳՐԵՔ ՁԵՐ ԿԱՐԾԻՔԸ</label></p>
+                    <p><textarea name="messenge" cols="50" rows="10" id="text" placeholder="Նկարագրեք  50 և ավելի բառերով"></textarea></p>
+                </fieldset>
+                    
+                <p><button input type="submit"> Ուղարկել </button></p>
+                    
+                  
+                </form> 
+        </div>
+        
+    </body>
+</html>
